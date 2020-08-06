@@ -1,0 +1,91 @@
+
+@media screen and (max-width: 1200px) {
+    .block-menu{
+        height: 840px;
+    }
+    .block-menu-first {
+        height: 610px;
+        width: 67%;
+        padding-left: 2%;
+        padding-right: 2%;
+        flex-wrap: wrap;
+        .block-menu-first-item{
+            width: 45%;
+            margin-right: 5%;
+            .title-header{
+                margin: 0 3% 10px;
+            }
+            .block{
+                &-item{
+                    height: auto;
+                    padding: 3%;
+                }
+            }
+            &:nth-child(3){
+                width: 100%;
+                .title-header{
+                    margin: 0 1.5% 10px;
+                }
+                .block{
+                    display: flex;
+                    align-items: flex-start;
+                    &-item{
+                        height: auto;
+                        padding-top: 1.5%;
+                        padding-left: 1.5%;
+                        padding-right: 1.5%;
+                        padding-bottom: 0;
+                    }
+                }
+            }
+            .block-item.block-big{
+                height: auto;
+            }
+        }
+    }
+    .block-menu-second{
+        width: 67%;
+        padding-bottom: 0;
+    }
+    .block-menu-third{
+        width: 33%;
+    }
+    .block-menu.product .block-menu-first{
+        height: 610px;    
+        padding-left: 2%;
+        padding-right: 2%;
+        flex-direction: column;
+        .icon-item{
+            width: 50%;
+        }
+        .block-menu-first-item{
+            width: 57%;
+            .icon-item{
+                margin-bottom: 20px;
+            }
+            &:nth-child(2){
+                order: 3;
+                width: 35%;
+                margin: 0;
+                .icon-item{
+                    width: 100%;
+                    margin-bottom: 30px;
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                }
+            }
+            &:nth-child(3){
+                .icon-item{
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+.block-menu.affiliate, 
+.block-menu.company{
+    .block-menu-first{
+        height: auto;
+    }
+}

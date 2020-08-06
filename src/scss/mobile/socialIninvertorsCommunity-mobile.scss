@@ -1,0 +1,243 @@
+@media screen and (max-width: 991px) {
+    .how-it-works{
+        padding: 60px 15px;
+        .align-item-center{
+            justify-content: space-between;
+        }
+        &-left{
+            width: 100%;
+            padding-right: 8%;
+            .title-h1{
+                color: #fff;
+                font-size: 64px;
+            }
+            .text{
+                width: 72%;
+                color: #fff;
+                margin-bottom: 5vh;
+            }
+            .text.text-top{
+                margin-bottom: 3vh;
+            }
+            .video-list{
+                display: flex;
+                width: 100%;
+                .default{
+                    cursor: pointer;
+                    &::before{
+                        content: '';
+                        display: block;
+                        background-color: rgba(44, 57, 82, 0.75);
+                        height: 100%;
+                        width: 100%;
+                        border-radius: 21px;
+                    }
+                    &:last-child{
+                        margin: 0;
+                    }
+                    &.active{
+                        background-color: transparent;
+                        &::before{
+                            display: none;
+                        }
+                        .play{
+                            display: flex;
+                        }
+                    }
+                }
+            }
+        }
+        &-right{
+            display: none;
+        }
+    }
+    .crypto-exchanges{
+        &-left{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            margin-bottom: 6vh;
+            .title-h5{
+                align-items: center;
+                font-size: 20px;
+                .title-box{
+                    flex-shrink: 0;
+                }
+            }
+            >div{
+                width: 100%;
+            }
+        }
+    }
+    .social-in-invertors-community{
+        .wrapp-values{
+            padding-right: 8%;
+            .values{
+                &-blue{
+                    font-size: 36px;
+                }
+                &-bot{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .core-features{
+        display: block;
+        padding-right: 8%;
+        padding-bottom: 200px;
+        .traders-network-left,
+        .traders-network-right{
+            width: 100%;
+            .wrapp-title{
+                .title-boxBig{
+                    display: flex;
+                    text-align: center;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    flex-wrap: wrap;
+                    height: 130px;
+                    min-width: 100px;
+                    margin-right: 10px;
+                    border: 1px solid rgba(212, 220, 239, 0.5);
+                    border-radius: 25px;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 771px) {
+    .social-in-invertors-community{
+        .wrapp-values{
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            padding: 40px 8%;
+            .values{
+                width: 50%;
+                margin-bottom: 40px;
+                &:nth-child(3),
+                &:nth-child(4){
+                    margin: 0;
+                }
+            }
+        }
+    }
+    
+    .core-features{
+        display: block;
+        padding-right: 8%;
+        padding-bottom: 310px;
+        .traders-network-left,
+        .traders-network-right{
+            .wrapp-title{
+                justify-content: flex-start;
+            }
+            .wrapp-button{
+                padding: 0 7%;
+                display: block;
+                .button{
+                    margin-right: 0;
+                    &:first-child{
+                        margin-bottom: 40px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+@media screen and (max-width: 580px) {
+    .wrapp-how-it-works {
+        min-height: auto;
+    }
+    .how-it-works{
+        padding: 50px 15px;
+        min-height: auto;
+        .align-item-center{
+            justify-content: space-between;
+        }
+        &-left{
+            width: 100%;
+            padding-right: 8%;
+            .title-h1{
+                color: #fff;
+                font-size: 28px;
+            }
+            .text{
+                width: 72%;
+                color: #fff;
+                margin-bottom: 5vh;
+            }
+            .text.text-top{
+                margin-bottom: 3vh;
+                font-size: 16px;
+                width: 100%;
+            }
+            .video-list{
+                display: flex;
+                width: 100%;
+                .default{
+                    width: 138px;
+                    height: 88px;
+                    margin-right: 9px;
+                    &:last-child{
+                        margin: 0;
+                    }
+                    &.active{
+                        .play{
+                            display: flex;
+                            height: 50px;
+                            width: 50px;
+                            &-block{
+                                height: 36px;
+                                width: 36px;
+                                img{
+                                    height: 17px;
+                                    width: 17px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .frequently-asked-questions{
+        width: 100%;
+        padding: 60px 9%;
+        .text{
+            width: 100%;
+        }
+        &-collapse{
+            .second-block-right-item{
+                margin-bottom: 20px;
+                padding-bottom: 15px;
+            }
+            .title-h5{
+                padding-right: 25px;
+                width: 100%;
+                font-size: 16px;
+                padding-bottom: 0;
+                
+            }
+            .text{
+                padding-right: 0;
+                width: 100%;
+            }
+        }
+    }
+    .social-in-invertors-community{
+        .wrapp-values{
+            .values{
+                &-bot{
+                    width: 100px;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+    
+}

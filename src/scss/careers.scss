@@ -1,0 +1,228 @@
+.general {
+    &.careers {
+        .header {
+            padding-top: 2rem;
+
+            &-bright {
+                background: $color-bright url("../img/header-bg.jpg") no-repeat center center;
+                background-size: cover;
+                height: 450px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                color: #fff;
+            }
+
+
+            .subtitle {
+                font: 400 1rem/1.7 $font-main;
+                text-align: center;
+                color: inherit;
+                max-width: 60%;
+                margin: 1.5rem auto;
+            }
+        }
+    }
+
+    .jobs,
+    .faq {
+        padding: 8rem 0;
+
+        .h2 {
+            margin-bottom: 3rem;
+        }
+
+        .btn {
+            margin: 4.5rem auto 0;
+        }
+    }
+
+    .jobs-grid {
+        .title{
+            align-items: center;
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+
+            .h4 {
+                color: $color-dark;
+                transition: all .5s;
+            }
+
+            &:hover {
+                .h4 {
+                    color: $color-bright;
+                }
+            }
+        }
+    }
+
+    .job-details{
+        width: 650px;
+        max-width: 90%;
+        margin: 0 auto;
+        padding-top: 5rem;
+
+        .h2 {
+            margin-bottom: 3rem;
+        }
+
+        .section {
+            margin-bottom: 4.5rem;
+        }
+
+        .btn-container {
+            .btn {
+                margin: 0 1rem 2rem;
+                min-width: 220px;
+            }
+        }
+    }
+
+    .apply {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        background-color: rgba(0,0,0, .5);
+
+        .modal-content {
+            background-color: $color-pure;
+            border: 3rem;
+            box-shadow: 0 40px 70px rgba(44, 57, 82, 0.15);
+            width: 77rem;
+            padding: 6rem 5rem;
+            //height: 40rem;
+        }
+    }
+
+    .form {
+        &-field {
+            margin-bottom: 1.75rem;
+
+            &.phone {
+                .select {
+                    width: 120px;
+                    height: 3rem;
+                    border-radius: 3rem;
+                    background-color: $color-dark;
+                    color: $color-pure;
+                    margin-right: 1.5rem;
+                    border: none;
+                    text-align: center;
+                    padding: 0 .5rem 0 1.5rem;
+                    outline: none;
+                    font-size: .875rem;
+                    border-right: 1rem solid $color-dark;
+
+                    option {
+                        text-align: center;
+
+                        &:first-child {
+                            margin-top: 1rem;
+                            padding: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .input {
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid rgba($color-dark, .1);
+            outline: none;
+            display: block;
+            padding: .75rem 0;
+        }
+    }
+
+
+    @media screen and (max-width: 1200px) {
+        .why,
+        .jobs {
+            .h2 {
+                text-align: center;
+            }
+
+            .btn {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+    }
+
+
+    @media screen and (max-width: 990px){
+        &.careers,
+        &.about {
+            .header-nav .nav {
+                background-color: $color-bright;
+            }
+        }
+
+        .header-bright {
+            margin-top: 60px;
+            background-image: url("../img/header-bg-mobile.jpg");
+        }
+
+        .why {
+            .h2 {
+                max-width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .grid {
+                justify-content: space-around;
+            }
+
+
+            .item {
+                text-align: center;
+
+                &-icon {
+                    margin: 0 auto;
+                    background: $color-bright;
+                    color: $color-pure;
+                }
+
+                &-title {
+                    color: $color-bright;
+                }
+            }
+
+            .btn {
+                margin-top: 3rem;
+            }
+        }
+
+        .jobs,
+        .faq {
+            .h2 {
+                margin-bottom: 2rem;
+            }
+
+            .grid {
+                width: 500px;
+                max-width: 100%;
+                margin: 0 auto;
+            }
+
+            .grid-item {
+                text-align: left;
+                min-height: 70px;
+
+                .title {
+                    align-items: center;
+                }
+
+                .link {
+                    font-size: 1rem;
+                    text-align: right;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@400;500;600;700;800;900&display=swap');
+
+@import "_variables";
+@import "_fonts";
+@import "_icons";
+
+@import "../../node_modules/slick-carousel/slick/slick";
+@import "reset";
+@import "../../node_modules/bootstrap/dist/css/bootstrap.css";
+@import "index";
+@import "menu";
+@import "homeEcosystem";
+@import "socialIninvertorsCommunity";
+@import "custom";
+
+// elements
+@import "_common";
+@import "_slider";
+
+// pages
+@import "affiliate";
+@import "academy";
+@import "careers";
+@import "about";
+
+//tablet
+@import "tablet/menu-tablet";
+@import "tablet/homeEcosystem-tablet";
+@import "tablet/socialIninvertorsCommunity-tablet";
+
+//tablet
+@import "mobile/menu-mobile";
+@import "mobile/homeEcosystem-mobile";
+@import "mobile/socialIninvertorsCommunity-mobile";

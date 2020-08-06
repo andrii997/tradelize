@@ -1,0 +1,458 @@
+
+@media screen and (max-width: 991px) {
+    .start-earning-left{
+        width: 58%;
+    }
+    .why-people-choose {
+        padding: 70px 5%;
+        .wrapp-block .block{
+            width: 46%;
+            margin-right: 0;
+            &:nth-child(odd){
+                margin-right: 8%;
+            }
+            &:nth-child(5),
+            &:nth-child(6){
+                margin-bottom: 0;
+            }
+        }
+        .wrapp-button{
+            justify-content: center;
+            margin-top: 5vh;
+        }
+        .wrapp-carousel{
+            width: 100vw;
+            overflow: hidden;
+        }
+    }
+    
+.traders-network{
+    &-left{
+        display: flex;
+        justify-content: center;
+        min-height: 20px;
+        width: 100%;
+        padding-bottom: 0;
+        border-right: 1px solid rgba(132, 153, 177, 0.15);
+        .wrapp-title{
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: hidden;
+            // transform: translate(calc(50% - 50px));
+            transition: ease 0.5s;
+            .title-boxBig,
+            .title-text{
+                display: flex;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                height: 130px;
+                min-width: 100px;
+                margin-right: 10px;
+                border: 1px solid rgba(212, 220, 239, 0.5);
+                border-radius: 25px;
+                font-size: 12px;
+                // &.active{
+                //     // transform: translateX(50%);
+                //     // margin-left: -75px;
+                // }
+                .title-box{
+                    margin: 0;
+                }
+            }
+        }
+    }
+    &-right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 20px;
+        width: 100%;
+        padding-left: 7%;
+        // border-left: 1px solid rgba(132, 153, 177, 0.15);
+        // padding: 10vh 0;
+        h3{
+            margin-bottom: 2vh;
+        }
+        .text{
+            width: 65%;
+            margin-bottom: 4vh;
+        }
+        .wrapp-img{
+            background-color: #E1EAFA;
+            width: 80%;
+            margin-bottom: 4vh;
+            padding: 10px;
+            border-radius: 30px;
+        }
+    }
+}
+
+}
+@media screen and (max-width: 771px) {
+    .header{
+        .first-block-right .dragon-block{
+            
+            img{
+                transform: rotateY(180deg);
+            }
+        } 
+        .first-block-left {
+            width: 500px;
+            .title {
+                font-size: 52px;
+            }
+            .wrapp-button{
+                display: block;
+                .button{
+                    margin: 0 auto 4vh;
+                }
+                .link{
+                    justify-content: center;
+                }
+            }
+        }
+    }
+    .group{
+        top: -37px;
+        &-item{
+            background-size: contain;
+            height: 76px;
+            width: 76px;
+        }
+    }
+    .traders-network{
+        &-right{
+            padding-left: 10%;
+            padding-right: 10%;
+
+            .title-h5[aria-expanded=true]{
+                font-size: 28px;
+            }
+            .wrapp-button{
+                margin-top: 3vh;
+            }
+        }
+        &-left{
+            min-height: 20px;
+            .wrapp-img{
+                width: 90%;
+            }
+        }
+    }
+    .multi-platform-access{
+
+        &-right {
+            margin-bottom: 450px;
+
+            .wrapp-img .block-img{
+                width: 75%;
+            }
+        }
+        
+        &-left{
+            flex-wrap: wrap;
+            flex-direction: row;
+            height: auto;
+            margin-bottom: 0;
+            .wrapp-button,
+            .block-text,
+            .title-h3,
+            .wrapp-title{
+                width: 100%;
+            }
+            .wrapp-title{
+                position: absolute;
+                bottom: 200px;
+                left: 0;
+                z-index: 10;
+                order: 0;
+                // padding-left: 0;
+                .mb{
+                    margin-bottom: 0;
+                }
+            }
+            .wrapp-button{
+                position: static;
+                left: 0;
+                right: 0;
+                bottom: 70px;
+                z-index: 10;
+                justify-content: center;
+            }
+        }
+    }
+    .wrapp-about-tradelize{
+        background: none;
+    }
+    .about-tradelize{
+        padding-top: 70px;
+        padding-left: 0;
+        padding-right: 0;
+        .title-h1{
+            font-size: 62px;
+            text-align: center;
+        }
+        .button{
+            margin: 0 auto;
+        }
+        &-left{
+            background-image: url('../img/about-bg.png');
+            background-size: auto 280px;
+            background-repeat: no-repeat;
+            background-position: right bottom;
+            width: 100%;
+            margin: 0;
+            padding: 0 5% 300px;
+            margin-bottom: 20px;
+        }
+    }
+    .start-earning{
+        .d-flex{
+            flex-wrap: wrap;
+        }
+        &-left{
+            background: none;
+            padding-bottom: 0;
+            .text{
+                width: 100%;
+            }
+        } 
+        &-right{
+            height: 300px;
+            width: 100%;
+            .dragon-block{
+                position: static;
+                &-img{
+                    text-align: center;
+                }
+                img{
+                    height: 456px;
+                }
+            }
+            
+        }
+        .our-partner{
+            .group{
+                display: none;
+            }
+        }
+    }
+    .other-questions{
+        padding-top: 8vh;
+        padding-left: 10%;
+        padding-right: 10%;
+        .title-h2{
+            width: auto;
+            margin-bottom: 3.5vh;
+        }
+        .text{
+            width: auto;
+        }
+        .button{
+            margin-bottom: 10vh;
+        }
+        .group{
+            display: none;
+        }
+    }
+    .footer-top-block {
+        display: none;
+    }
+    .footer-top-block:nth-child(5), .footer-top-block:nth-child(6) {
+        display: block;
+    }
+    .footer-top-block.wid-20 {
+        width: auto;
+        flex-shrink: 0;
+    }
+    .footer-top-block.wid-10 {
+        width: auto;
+        flex-shrink: 0;
+    }
+    .footer-top-block p.strong {
+        color: #8499B1;
+        font-size: 14px;
+    }
+    .footer-top {
+        justify-content: space-around;
+        border-bottom: 0;
+        margin-bottom: 0;
+    }
+    .footer-bottom{
+        padding-top: 3vh;
+        border-top: 1px solid #E1EAFA;
+        &-right{
+            display: block;
+            margin: 0 auto;
+            ul{
+                justify-content: center;
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+        }
+        &-left{
+            display: none;
+        }
+    }
+    .title{
+        &-h1{
+            font-size: 64px;
+        }
+        &-h2{
+            font-size: 34px;
+        }
+        &-h5{
+            font-size: 20px;
+        }
+    }
+}
+@media screen and (max-width: 580px) {
+    .header{
+        .first-block-right {
+            background: none;
+            padding-top: 3vh;
+            padding-bottom: 4vh;
+            .dragon-block{
+                .dragon-block-img{
+                    height: 232px;
+                    width: 232px;
+                }
+                img{
+                    height: 85%;
+                }
+            }
+        }
+        .first-block-left {
+            width: 274px;
+            padding-top: 0;
+            .title {
+                font-size: 28px;
+            }
+            .wrapp-values{
+                flex-wrap: wrap;
+                .values{
+                    width: 36%;
+                    &:nth-child(1),
+                    &:nth-child(2){
+                        margin-bottom: 4vh;
+                    }
+                }
+
+            }
+        }
+    }
+    .traders-network-right{
+        .title-h5{
+            display: block;
+            .title-box{
+                display: none;
+            }
+        }
+        .wrapp-button{
+            display: block;
+            .button{
+                margin: 0 auto 3vh;
+            }
+        }
+    }
+    
+    .wrapp-why-people-choose.h-100vh{
+        min-height: 20px;
+    }
+    .multi-platform-access{
+        &-right{
+            margin-bottom: 550px;
+            .wrapp-img {
+                .block-img{
+                    padding: 0;
+                }
+                .wrapp-block{
+                    padding: 15px;
+                    .title{
+                        font-size: 12px;
+                    }
+                    .text{
+                        font-size: 10px;
+                        margin-bottom: 10px;
+                    }
+
+                    img{
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+                .wrapp-block.block-black{
+                    width: 50px;
+                    height: 50px;
+                }
+                .wrapp-block.block-red,
+                .wrapp-block.block-blue{
+                    width: 110px;
+                    height: 120px;
+                }
+
+            }
+        }
+        
+        &-left{
+
+            .wrapp-title{
+                bottom: 300px;
+            }
+            .wrapp-button{
+                padding: 0 7%;
+                display: block;
+                .button{
+                    margin-right: 0;
+                    &:first-child{
+                        margin-bottom: 40px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .why-people-choose {
+        padding-left: 0;
+        padding-right: 0;
+        .wrapp-block{
+            display: none;
+            overflow: hidden;
+            .slick-slide::after{
+                display: none;
+            }
+            .slick-slider {
+                touch-action: auto;
+                -ms-touch-action: auto;
+            }
+            .block{
+                display: block;
+                width: 100vw;
+                >.block-text {
+                    width: 100vw;
+                    padding-left: 10%;
+                    padding-right: 10%;
+                    margin: 0 auto;
+                    text-align: center;
+                }
+                &:nth-child(odd){
+                    margin: 0;
+                }
+            }
+            .slick-list{
+                margin-bottom: 5vh;
+            }
+
+        }
+        .wrapp-block-carousel{
+            display: block;
+        }
+    }
+    .title{
+        &-h3{
+            font-size: 28px;
+        }
+    }
+}

@@ -1,0 +1,263 @@
+@media screen and (max-width: 1500px) {
+    .header .first-block-right{
+        padding-left: 0;
+    }
+    .wrapp-why-people-choose.h-100vh{
+        height: auto;
+    }
+    .why-people-choose{
+        padding: 100px 7%;
+        .title-h3{
+            text-align: center;
+        }
+        .wrapp-block .block{
+            width: 27%;
+            margin-right: 9%;
+            &:nth-child(3),
+            &:nth-child(6){
+                margin-right: 0;
+            }
+        }
+    }
+    .wrapp-about-tradelize{
+        background-size: 50%;
+        background-position-y: 30vh;
+    }
+    .about-tradelize{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .footer{
+        &-top{
+            padding-left: 5%;
+            padding-right: 5%;
+            &-block{
+                width: 24%;
+                &:nth-child(3){
+                    width: 30%;
+                }
+                &:nth-child(1),
+                &.wid-15{
+                    width: 20%;
+                }
+                &:nth-child(5),
+                &:nth-child(6){
+                    display: none;
+                }
+            }
+        }
+        &-bottom{
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+    }
+}
+@media screen and (max-width: 1200px) {
+    .header-nav .containers .menu {
+        padding-left: 3%;
+        .menu-item{
+            margin: 0 3%;
+        }
+    }
+    .h-100vh{
+        height: auto;
+    }
+    .header.h-100vh.wrapp-blue-block{
+        height: auto;
+    }
+    .header {
+        background: none;
+        background-color: #F1F6FF;
+        .first-block{
+            height: auto;
+            &-wrapper.block-flex{
+                flex-wrap: wrap;
+                padding-left: 0;
+            }
+            &-left,
+            &-right{
+                position: static;
+                width: 100%;
+            }
+            &-left{
+                order: 2;
+                width: 600px;
+                margin: 0 auto;
+                padding-top: 5vh;
+                padding-bottom: 110px;
+                .title{
+                    margin-bottom: 4.5vh;
+                }
+                
+                &.home-ecosystem{
+                    .wrapp-button{
+                        margin-bottom: 6.5vh;
+                    }
+                    .wrapp-values {
+                        margin-bottom: 30px;
+                    }
+                }
+                .wrapp-button{
+                    margin-bottom: 6.5vh;
+                }
+            }
+            &-right{
+                background-image: url('../img/header-first-bg.png');
+                background-repeat: no-repeat;
+                background-position-x: center;
+                background-size: contain;
+                padding-top: 10vh;
+                padding-bottom: 7vh;
+                .dragon-block{
+                    display: flex;
+                    justify-content: center;
+                    position: static;
+                    .dragon-block-img{
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-end;
+                        background-color: #fff;
+                        height: 500px;
+                        width: 500px;
+                        border-radius: 50%;
+                    }
+                    img{
+                        height: 420px;
+                    }
+                }
+            }
+        }
+        .wrapp-video{
+            left: 0;
+            right: 0;
+            top: auto;
+            bottom: -100px;
+            z-index: 20;
+            margin: 0 auto;
+        }
+    }
+    .traders-network{
+        background: none;
+        flex-wrap: wrap;
+        &-left{
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 120px;
+            .title-text{
+                font-size: 16px;
+            }
+        }
+    }
+    .wrapp-multi-platform-access{
+        background: none;
+        background-color: #F1F6FF;
+    }
+    .multi-platform-access{
+        flex-wrap: wrap;
+        padding: 100px 0;
+        &-left,
+        &-right{
+            width: 100%;
+        }
+        &-left{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            height: 350px;
+            margin-bottom: 11vh;
+            padding-left: 6.8%;
+            padding-right: 6.8%;
+            .wrapp-button,
+            .block-text,
+            .title-h3,
+            .wrapp-title{
+                width: 50%;
+            }
+            .wrapp-title{
+                order: 4;
+                padding-left: 7%;
+                .title-h5{
+                    font-size: 20px;
+                }
+            }
+            &::after{
+                content: '';
+                display: block;
+                height: 0;
+                width: 0;
+                clear: both;
+            }
+        }
+        &-right{
+            .wrapp-img{
+                height: auto;
+                .block-img{
+                    width: 58%;
+                }
+            } 
+        }
+    }
+    .user-feedback{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .about-tradelize{
+        .title-h1{
+            font-size: 96px;
+        }
+        .our-partner{
+            position: relative;
+            background-color: #F1F6FF;
+            margin-left: -6%;
+            margin-right: -6%;
+            padding: 12vh 5%;
+            .group{
+                display: flex;
+            }
+        }
+    }
+    .wrapp-start-earning{
+        background: none;
+    }
+    .start-earning{
+        background: none;
+        .group{
+            display: flex;
+        }
+        .title-h1{
+            font-size: 72px;
+        }
+        &-left{
+            width: 54%;
+            margin-bottom: 20vh;
+            padding-top: 0;
+            .text {
+                width: 75%;
+            }
+        }
+        &-right{
+            .dragon-block{
+                left: -10%;
+            }
+        }
+    }
+    .other-questions{
+        background: none;
+        .group{
+            display: flex;
+        }
+    }
+    .group{
+        top: -55px;
+        &-item{
+            background-size: contain;
+            height: 110px;
+            width: 110px;
+        }
+    }
+    .dragon-block img{
+        height: 656px;
+    }
+}
